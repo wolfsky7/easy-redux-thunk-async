@@ -1,15 +1,17 @@
 #使支持async的写法
+#store
+
 ```js
 import thunkWithAsync from 'easy-redux-thunk-async';
 
-store
+
 const middleWares = [
     thunkWithAsync,
     // other middleWares...
 ];
 const createStoreWithMiddleware = applyMiddleware(...middleWares)(createStore);
 
-action
+#action
 ```js
 export function test(foo) {
     return {
