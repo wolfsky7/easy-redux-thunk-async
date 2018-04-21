@@ -10,6 +10,7 @@ const middleWares = [
     // other middleWares...
 ];
 const createStoreWithMiddleware = applyMiddleware(...middleWares)(createStore);
+```
 
 #action
 ```js
@@ -43,3 +44,4 @@ const testHello=async ()=>{
     console.log('async');
     return Promise.resolve(1);
 }
+```
