@@ -1,8 +1,9 @@
 {
   "name": "easy-redux-thunk-async",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "redux-thunk 支持 async",
   "main": "index.js",
+  "homepage": "https://github.com/wolfsky7/easy-redux-thunk-async",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
