@@ -1,13 +1,15 @@
-#是支持async的写法
+#使支持async的写法
 ```js
-import thunkWidthAsync from easy-redux-thunk-async';
+import thunkWithAsync from 'easy-redux-thunk-async';
 
+store
 const middleWares = [
     thunkWithAsync,
     // other middleWares...
 ];
 const createStoreWithMiddleware = applyMiddleware(...middleWares)(createStore);
 
+action
 ```js
 export function test(foo) {
     return {
