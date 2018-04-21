@@ -1,0 +1,15 @@
+{
+  "name": "easy-redux-thunk-async",
+  "version": "1.0.0",
+  "description": "redux-thunk 支持 async",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "redux-thunk",
+    "async"
+  ],
+  "author": "",
+  "license": "ISC"
+}
